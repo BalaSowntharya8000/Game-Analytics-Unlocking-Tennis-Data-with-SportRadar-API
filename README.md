@@ -3,23 +3,24 @@
 ## Project Overview
 The **SportRadar Event Explorer** project aims to create a **comprehensive solution** for **managing, visualizing, and analyzing** tennis competition data **extracted from the Sportradar API.** The application **parses JSON data, stores structured information** in a **relational database,** and provides **interactive insights** into **tournaments, competition hierarchies,** and **event details.** It is tailored for **sports enthusiasts, analysts, and organizations** to better **understand competition structures and trends** while exploring detailed event-specific information.
 
-**Skills Acquired**
+#### Skills Acquired
+
 **Python Scripting:** Automated extraction, transformation, and loading (ETL) of sports data.
 **Data Collection via API Integration:** Seamless interaction with the Sportradar API for real-time data collection.
 **Data Management Using SQL:** Designing and managing relational databases.
 **Streamlit:** Creating dynamic dashboards and visual analytics for user interaction.
 
-**Domain**
+#### Domain
 **Sports/Data Analytics**
 
-**Business Use Cases**
+#### Business Use Cases
 
 **Event Exploration:** Enable users to navigate through competition hierarchies (e.g., ATP Vienna events).
 **Trend Analysis:** Visualize the distribution of events by type, gender, and competition level.
 **Performance Insights:** Analyze player participation across singles and doubles events.
 **Decision Support:** Offer data-driven insights to event organizers or sports bodies for resource allocation.
 
-**Project Setup in VS Code**
+#### Project Setup in VS Code
 
 **Step 1: Check or Install Python**
 Make sure Python (preferably 3.10 or higher) is installed.
@@ -57,7 +58,7 @@ In the Terminal - pip install -r requirements.txt
 --> Script automation
 --> Reusable functions and modules
 
-**Development Approach**
+#### Development Approach
 
 **Data Extraction**
 Connect to the Sportradar API to retrieve competition data.
@@ -80,21 +81,18 @@ Explore player participation and event distributions.
 Generate insights into competition structures and participation trends.
 Provide actionable recommendations for event organizers and sports analysts.
 
-**Technologies Used**
+#### Technologies Used
 **Python:** For scripting and data processing.
-
 **Sportradar API:** Data source for tennis event information.
-
 **SQL:** Relational database for structured data storage.
-
 **Streamlit:** Dashboard creation and data visualization.
 
-**Expected Outcomes**
+#### Expected Outcomes
 A robust system for parsing and storing sports data.
 Intuitive dashboards for exploring competition hierarchies and trends.
 Actionable insights to aid sports decision-making processes.
 
-**Repository Structure**
+#### Repository Structure
 /README.md       # Project documentation
 /data                     # Raw and processed data files 
 /scripts                 # Python scripts for API integration and data processing
@@ -133,44 +131,37 @@ The dashboard folder holds the Streamlit application files. These files are resp
 **Why it’s used?**
 It separates the code related to the visualization and user interface from the rest of the project, making it easier to maintain and update the dashboard without interfering with backend processes.
 
-**Getting Started**
+#### Getting Started
 Clone this repository.
 Install the required Python libraries from requirements.txt.
 Obtain API access credentials from Sportradar.
 Run the data extraction script to populate the database.
 Launch the Streamlit dashboard to explore insights interactively.
 
-**API Endpoint Configuration and Access Details**
+#### API Endpoint Configuration and Access Details
 
 **API Key:** uTdw18HoNI3f8JZtcHNxtd8V1VxvGrIqQ9QoGh9y
-
 **Endpoint:** https://api.sportradar.com/tennis/{access_level}/{version_number}/{language_code}/competitions.{format}
-
 **Access Level:** trial
-
 **Version:** v3
-
 **Language Code:** en
-
 **Status Code:** 200
 
-**Usage: How to Run the Project**
+#### Usage: How to Run the Project
 
 To run the project, open the terminal and use the following command:
 streamlit run [File Name].py
 For Reference: (Not to use the bracket)
 
-**Optional Enhancements (Planned for Future Releases)**
+#### Optional Enhancements (Planned for Future Releases)
 **Notification system for ranking changes** - Alert users when a competitor's rank changes.
-
 **Geo-visualizations based on country stats** - Display insights using interactive maps for country-wise analysis.
-
 **Mobile-responsive Streamlit interface** - Enhance usability across mobile and tablet devices.
 
 **Conclusion** 
 This project brings together data collection, processing, and visualization to make tennis analytics accessible and insightful.
 
-**Acknowledgements**
+#### Acknowledgements
 **Sportradar** - https://developer.sportradar.com/tennis/reference/competitions
 **Streamlit Documents** - https://docs.streamlit.io/develop/api-reference/widgets/st.slider
 
