@@ -1,30 +1,24 @@
 # Game Analytics: **Unlocking Tennis Data with SportRadar API**
 
 ## Project Overview
-The **SportRadar Event Explorer** project aims to create a **comprehensive solution** for **managing, visualizing, and analyzing** tennis competition data **extracted from the Sportradar API.** The application **parses JSON data, stores structured information** in a **relational database,** and provides **interactive insights** into **tournaments, competition hierarchies,** and **event details.** It is tailored for **sports enthusiasts, analysts, and organizations** to better **understand competition structures and trends** while exploring detailed event-specific information.
+The SportRadar Event Explorer project aims to develop a comprehensive solution for managing, visualizing, and analyzing sports competition data extracted from the Sportradar API. The application will parse JSON data, store structured information in a relational database, and provide intuitive insights into tournaments, competition hierarchies, and event details. This project is designed to assist sports enthusiasts, analysts, and organizations in understanding competition structures and trends while exploring detailed event-specific information interactively.
 
 #### Skills Acquired
 
-**Python Scripting:** Automated extraction, transformation, and loading (ETL) of sports data.
-
-**Data Collection via API Integration:** Seamless interaction with the Sportradar API for real-time data collection.
-
-**Data Management Using SQL:** Designing and managing relational databases.
-
-**Streamlit:** Creating dynamic dashboards and visual analytics for user interaction.
+- **Python Scripting:** Automated extraction, transformation, and loading (ETL) of sports data.
+- **Data Collection via API Integration:** Seamless interaction with the Sportradar API for real-time data collection.
+- **Data Management Using SQL:** Designing and managing relational databases.
+- **Streamlit:** Creating dynamic dashboards and visual analytics for user interaction.
 
 #### Domain
 **Sports/Data Analytics**
 
 #### Business Use Cases
 
-**Event Exploration:** Enable users to navigate through competition hierarchies (e.g., ATP Vienna events).
-
-**Trend Analysis:** Visualize the distribution of events by type, gender, and competition level.
-
-**Performance Insights:** Analyze player participation across singles and doubles events.
-
-**Decision Support:** Offer data-driven insights to event organizers or sports bodies for resource allocation.
+- **Event Exploration:** Enable users to navigate through competition hierarchies (e.g., ATP Vienna events).
+- **Trend Analysis:** Visualize the distribution of events by type, gender, and competition level.
+- **Performance Insights:** Analyze player participation across singles and doubles events.
+- **Decision Support:** Offer data-driven insights to event organizers or sports bodies for resource allocation.
 
 #### Project Setup in VS Code
 
@@ -146,12 +140,12 @@ Launch the Streamlit dashboard to explore insights interactively.
 
 #### API Endpoint Configuration and Access Details
 
-**API Key:** uTdw18HoNI3f8JZtcHNxtd8V1VxvGrIqQ9QoGh9y
-**Endpoint:** https://api.sportradar.com/tennis/{access_level}/{version_number}/{language_code}/competitions.{format}
-**Access Level:** trial
-**Version:** v3
-**Language Code:** en
-**Status Code:** 200
+- **API Key:** uTdw18HoNI3f8JZtcHNxtd8V1VxvGrIqQ9QoGh9y
+- **Endpoint:** https://api.sportradar.com/tennis/{access_level}/{version_number}/{language_code}/competitions.{format}
+- **Access Level:** trial
+- **Version:** v3
+- **Language Code:** en
+- **Status Code:** 200
 
 #### Usage: How to Run the Project
 
@@ -160,9 +154,9 @@ streamlit run [File Name].py
 For Reference: (Not to use the bracket)
 
 #### Optional Enhancements (Planned for Future Releases)
-**Notification system for ranking changes** - Alert users when a competitor's rank changes.
-**Geo-visualizations based on country stats** - Display insights using interactive maps for country-wise analysis.
-**Mobile-responsive Streamlit interface** - Enhance usability across mobile and tablet devices.
+- **Notification system for ranking changes** - Alert users when a competitor's rank changes.
+- **Geo-visualizations based on country stats** - Display insights using interactive maps for country-wise analysis.
+- **Mobile-responsive Streamlit interface** - Enhance usability across mobile and tablet devices.
 
 **Conclusion** 
 This project brings together data collection, processing, and visualization to make tennis analytics accessible and insightful.
