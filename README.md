@@ -155,7 +155,7 @@ It separates the code related to the visualization and user interface from the r
 
 To run the project, open the terminal and use the following command:
 streamlit run your_dashboard_file.py
- - Replace your_dashboard_file.py with your actual Streamlit file name.
+
 **Example** - streamlit run tennis_analytics.py
 
 #### Optional Enhancements (Planned for Future Releases)
