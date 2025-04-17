@@ -5,8 +5,11 @@ The **SportRadar Event Explorer** project aims to create a **comprehensive solut
 
 **Skills Acquired**
 **Python Scripting:** Automated extraction, transformation, and loading (ETL) of sports data.
+
 **Data Collection via API Integration:** Seamless interaction with the Sportradar API for real-time data collection.
+
 **Data Management Using SQL:** Designing and managing relational databases.
+
 **Streamlit:** Creating dynamic dashboards and visual analytics for user interaction.
 
 **Domain**
@@ -15,8 +18,11 @@ The **SportRadar Event Explorer** project aims to create a **comprehensive solut
 **Business Use Cases**
 
 **Event Exploration:** Enable users to navigate through competition hierarchies (e.g., ATP Vienna events).
+
 **Trend Analysis:** Visualize the distribution of events by type, gender, and competition level.
+
 **Performance Insights:** Analyze player participation across singles and doubles events.
+
 **Decision Support:** Offer data-driven insights to event organizers or sports bodies for resource allocation.
 
 **Project Setup in VS Code**
@@ -76,8 +82,11 @@ Provide actionable recommendations for event organizers and sports analysts.
 
 **Technologies Used**
 **Python:** For scripting and data processing.
+
 **Sportradar API:** Data source for tennis event information.
+
 **SQL:** Relational database for structured data storage.
+
 **Streamlit:** Dashboard creation and data visualization.
 
 **Expected Outcomes**
@@ -96,26 +105,31 @@ Actionable insights to aid sports decision-making processes.
 The README.md file provides an introduction to the project, explains how to set it up and use it, lists its features and technologies, and offers guidelines for contributing. It serves as the primary documentation for developers and users to understand the project's purpose, functionality, and setup.
 .md = Markdown file format.
 It’s typically used for project documentation.
+
 **Why it’s used in GitHub?**
 GitHub automatically renders .md files in a formatted way, which is why README.md files are shown with nice formatting when you visit a repository.
 
 **/data**
 The data directory contains all raw and processed data files used in the project. This may include data fetched from the API, intermediate transformations, or cleaned data that is ready for analysis.
+
 **Why it’s used?**
 This folder helps to separate your data from code files, keeping the project organized. It makes it easier for collaborators to access and understand data storage without affecting the functionality of the application.
 
 **/scripts**
 The scripts folder houses all Python scripts responsible for API integration, data extraction, transformation, and loading (ETL). This includes the logic for interacting with the SportRadar API, cleaning the fetched data, and storing it in a structured database.
+
 **Why it’s used?**
 By keeping scripts in a separate folder, the project is organized and modular. It allows you to maintain and update your codebase without cluttering other parts of the project.
 
 **/database**
 The database folder contains the SQL schema files and other database-related resources. This can include .sql files for setting up tables, constraints, and relations, as well as scripts for managing database migrations or backups.
+
 **Why it’s used?**
 This folder centralizes your database-related resources, helping you quickly update and manage your database schema and any SQL queries needed to work with the data.
 
 **/dashboard**
 The dashboard folder holds the Streamlit application files. These files are responsible for creating interactive visualizations, dashboards, and user interfaces. It typically includes .py files with Streamlit code for presenting the data in a user-friendly way.
+
 **Why it’s used?**
 It separates the code related to the visualization and user interface from the rest of the project, making it easier to maintain and update the dashboard without interfering with backend processes.
 
@@ -129,10 +143,15 @@ Launch the Streamlit dashboard to explore insights interactively.
 **API Endpoint Configuration and Access Details**
 
 **API Key:** uTdw18HoNI3f8JZtcHNxtd8V1VxvGrIqQ9QoGh9y
+
 **Endpoint:** https://api.sportradar.com/tennis/{access_level}/{version_number}/{language_code}/competitions.{format}
+
 **Access Level:** trial
+
 **Version:** v3
+
 **Language Code:** en
+
 **Status Code:** 200
 
 **Usage: How to Run the Project**
@@ -143,7 +162,9 @@ For Reference: (Not to use the bracket)
 
 **Optional Enhancements (Planned for Future Releases)**
 **Notification system for ranking changes** - Alert users when a competitor's rank changes.
+
 **Geo-visualizations based on country stats** - Display insights using interactive maps for country-wise analysis.
+
 **Mobile-responsive Streamlit interface** - Enhance usability across mobile and tablet devices.
 
 **Conclusion** 
