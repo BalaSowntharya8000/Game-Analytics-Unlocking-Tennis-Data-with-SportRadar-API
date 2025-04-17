@@ -14,49 +14,38 @@ The **SportRadar Event Explorer** project aims to create a **comprehensive solut
 
 ## Business Use Cases
 
-### Event Exploration: 
-Enable users to navigate through competition hierarchies (e.g., ATP Vienna events).
-### Trend Analysis: 
-Visualize the distribution of events by type, gender, and competition level.
-### Performance Insights: 
-Analyze player participation across singles and doubles events.
-### Decision Support: 
-Offer data-driven insights to event organizers or sports bodies for resource allocation.
+### Event Exploration: Enable users to navigate through competition hierarchies (e.g., ATP Vienna events).
+### Trend Analysis: Visualize the distribution of events by type, gender, and competition level.
+### Performance Insights: Analyze player participation across singles and doubles events.
+### Decision Support: Offer data-driven insights to event organizers or sports bodies for resource allocation.
 
 ## Project Setup in VS Code
 
 ### Step 1: Check or Install Python
 Make sure Python (preferably 3.10 or higher) is installed.
-
 #### To check:
 python --version
 If not installed, download it from python.org
-
 ### Step 2: Set Up Python Environment
 Create a virtual environment to isolate the project dependencies:
 python -m venv env
-
 #### Activation part:
 Windows Users ---> Windows: .\env\Scripts\activate
 Mac/Linux: source env/bin/activate
-
 ### Step 3: Configure Python Path in VS Code
 Open the project folder in VS Code.
 Open any .py file or your main.ipynb.
 In the bottom-left corner, will see the Python interpreter (EG: Python 3.13.2 64-bit).
 Click on it.
-
 ### Step 4: Install Required Packages
 If you have a requirements.txt, install all packages.
 In the Terminal - pip install -r requirements.txt
-
 ### Step 5: Organize Code Files
 #### Use .ipynb files for:
 --> Step-by-step exploration
 --> API testing
 --> Data analysis
 --> Prototyping workflows
-
 #### Use .py files for:
 --> App logic (e.g., Streamlit interface)
 --> Script automation
@@ -64,39 +53,39 @@ In the Terminal - pip install -r requirements.txt
 
 ### Development Approach
 
-### Data Extraction
+#### Data Extraction
 Connect to the Sportradar API to retrieve competition data.
 Parse and extract relevant information from JSON responses.
 Transform nested JSON structures into flat, relational data suitable for analysis.
 
-### Data Storage
+#### Data Storage
 Design a SQL database schema tailored to sports data.
 Define appropriate data types and relationships.
 Implement primary and foreign keys to maintain data integrity.
 Store parsed data for easy querying and analysis.
 
-### Data Analysis & Visualization
+#### Data Analysis & Visualization
 Use Python libraries (e.g., Pandas, Matplotlib) to analyze stored data.
 Develop an interactive dashboard using Streamlit to:
 Visualize competition trends.
 Explore player participation and event distributions.
 
-### Insights Delivery
+#### Insights Delivery
 Generate insights into competition structures and participation trends.
 Provide actionable recommendations for event organizers and sports analysts.
 
-### Technologies Used
+#### Technologies Used
 **Python:** For scripting and data processing.
 **Sportradar API:** Data source for tennis event information.
 **SQL:** Relational database for structured data storage.
 **Streamlit:** Dashboard creation and data visualization.
 
-### Expected Outcomes
+#### Expected Outcomes
 A robust system for parsing and storing sports data.
 Intuitive dashboards for exploring competition hierarchies and trends.
 Actionable insights to aid sports decision-making processes.
 
-### Repository Structure
+#### Repository Structure
 /README.md       # Project documentation
 /data                     # Raw and processed data files 
 /scripts                 # Python scripts for API integration and data processing
@@ -139,6 +128,7 @@ Run the data extraction script to populate the database.
 Launch the Streamlit dashboard to explore insights interactively.
 
 #### API Endpoint Configuration and Access Details
+
 **API Key:** uTdw18HoNI3f8JZtcHNxtd8V1VxvGrIqQ9QoGh9y
 **Endpoint:** https://api.sportradar.com/tennis/{access_level}/{version_number}/{language_code}/competitions.{format}
 **Access Level:** trial
