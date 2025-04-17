@@ -39,10 +39,10 @@ Windows Users ---> Windows: .\env\Scripts\activate
 Mac/Linux: source env/bin/activate
 
 **Step 3: Configure Python Path in VS Code**
-Open the project folder in VS Code.
-Open any .py file or your main.ipynb.
-In the bottom-left corner, will see the Python interpreter (EG: Python 3.13.2 64-bit).
-Click on it.
+- Open the project folder in VS Code.
+- Open any .py file or your main.ipynb.
+- In the bottom-left corner, will see the Python interpreter (EG: Python 3.13.2 64-bit).
+- Click on it.
 
 **Step 4: Install Required Packages**
 If you have a requirements.txt, install all packages.
