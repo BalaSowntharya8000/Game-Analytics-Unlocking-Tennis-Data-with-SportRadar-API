@@ -6,8 +6,11 @@ The **SportRadar Event Explorer** project aims to create a **comprehensive solut
 #### Skills Acquired
 
 **Python Scripting:** Automated extraction, transformation, and loading (ETL) of sports data.
+
 **Data Collection via API Integration:** Seamless interaction with the Sportradar API for real-time data collection.
+
 **Data Management Using SQL:** Designing and managing relational databases.
+
 **Streamlit:** Creating dynamic dashboards and visual analytics for user interaction.
 
 #### Domain
@@ -16,8 +19,11 @@ The **SportRadar Event Explorer** project aims to create a **comprehensive solut
 #### Business Use Cases
 
 **Event Exploration:** Enable users to navigate through competition hierarchies (e.g., ATP Vienna events).
+
 **Trend Analysis:** Visualize the distribution of events by type, gender, and competition level.
+
 **Performance Insights:** Analyze player participation across singles and doubles events.
+
 **Decision Support:** Offer data-driven insights to event organizers or sports bodies for resource allocation.
 
 #### Project Setup in VS Code
