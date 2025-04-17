@@ -46,7 +46,7 @@ Mac/Linux: source env/bin/activate
 
 **Step 4: Install Required Packages**
 If you have a requirements.txt, install all packages.
-In the Terminal - pip install -r requirements.txt
+* In the Terminal - pip install -r requirements.txt
 
 **Step 5: Organize Code Files**
 
