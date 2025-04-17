@@ -153,15 +153,17 @@ It separates the code related to the visualization and user interface from the r
 #### Usage: How to Run the Project
 
 To run the project, open the terminal and use the following command:
-streamlit run [File Name].py
-For Reference: (Not to use the bracket)
+streamlit run your_dashboard_file.py
+ - Replace your_dashboard_file.py with your actual Streamlit file name.
+**Example** - streamlit run tennis_analytics.py
 
 #### Optional Enhancements (Planned for Future Releases)
 - **Notification system for ranking changes** - Alert users when a competitor's rank changes.
 - **Geo-visualizations based on country stats** - Display insights using interactive maps for country-wise analysis.
 - **Mobile-responsive Streamlit interface** - Enhance usability across mobile and tablet devices.
 
-**Conclusion** 
+**Conclusion**
+
 This project brings together data collection, processing, and visualization to make tennis analytics accessible and insightful.
 
 #### Acknowledgements
