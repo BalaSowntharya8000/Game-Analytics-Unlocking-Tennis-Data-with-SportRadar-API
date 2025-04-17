@@ -5,11 +5,8 @@ The **SportRadar Event Explorer** project aims to create a **comprehensive solut
 
 **Skills Acquired**
 **Python Scripting:** Automated extraction, transformation, and loading (ETL) of sports data.
-
 **Data Collection via API Integration:** Seamless interaction with the Sportradar API for real-time data collection.
-
 **Data Management Using SQL:** Designing and managing relational databases.
-
 **Streamlit:** Creating dynamic dashboards and visual analytics for user interaction.
 
 **Domain**
@@ -18,34 +15,37 @@ The **SportRadar Event Explorer** project aims to create a **comprehensive solut
 **Business Use Cases**
 
 **Event Exploration:** Enable users to navigate through competition hierarchies (e.g., ATP Vienna events).
-
 **Trend Analysis:** Visualize the distribution of events by type, gender, and competition level.
-
 **Performance Insights:** Analyze player participation across singles and doubles events.
-
 **Decision Support:** Offer data-driven insights to event organizers or sports bodies for resource allocation.
 
 **Project Setup in VS Code**
 
 **Step 1: Check or Install Python**
 Make sure Python (preferably 3.10 or higher) is installed.
+
 To check:
+
 python --version
 If not installed, download it from python.org
+
 **Step 2: Set Up Python Environment**
 Create a virtual environment to isolate the project dependencies:
 python -m venv env
 **Activation part:**
 Windows Users ---> Windows: .\env\Scripts\activate
 Mac/Linux: source env/bin/activate
+
 **Step 3: Configure Python Path in VS Code**
 Open the project folder in VS Code.
 Open any .py file or your main.ipynb.
 In the bottom-left corner, will see the Python interpreter (EG: Python 3.13.2 64-bit).
 Click on it.
+
 **Step 4: Install Required Packages**
 If you have a requirements.txt, install all packages.
 In the Terminal - pip install -r requirements.txt
+
 **Step 5: Organize Code Files**
 **Use .ipynb files for:**
 --> Step-by-step exploration
