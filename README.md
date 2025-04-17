@@ -104,7 +104,8 @@ If you have a requirements.txt, install all packages.
 
 **/README.md**
 The README.md file provides an introduction to the project, explains how to set it up and use it, lists its features and technologies, and offers guidelines for contributing. It serves as the primary documentation for developers and users to understand the project's purpose, functionality, and setup.
-.md = Markdown file format.
+
+**.md = Markdown file format.**
 It’s typically used for project documentation.
 
 **Why it’s used in GitHub?**
