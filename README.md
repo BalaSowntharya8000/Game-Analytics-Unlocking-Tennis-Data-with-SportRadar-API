@@ -85,10 +85,21 @@ If you have a requirements.txt, install all packages.
 - Provide actionable recommendations for event organizers and sports analysts.
 
 #### Technologies Used
-- **Python:** For scripting and data processing.
-- **Sportradar API:** Data source for tennis event information.
-- **SQL:** Relational database for structured data storage.
-- **Streamlit:** Dashboard creation and data visualization.
+##### Languages
+*Python:* Core language for scripting, data processing, and API integration.
+**SQL (MySQL):** For storing and querying structured tennis competition data.
+
+##### Libraries & Frameworks
+**Pandas:** For data manipulation and analysis.
+**Plotly:** For creating interactive and responsive visualizations.
+**Streamlit:** For building and deploying the web dashboard interface.
+
+##### Applications & Tools
+**Visual Studio Code (VS Code):** IDE used for writing and debugging code.
+**XAMPP (MySQL Server):** Local server setup for MySQL database hosting.
+
+##### APIs
+**Sportradar Tennis API:** External data source providing real-time and historical tennis statistics.
 
 #### Expected Outcomes
 - A robust system for parsing and storing sports data.
