@@ -90,14 +90,14 @@ If you have a requirements.txt, install all packages.
 
 **SQL (MySQL):** For storing and querying structured tennis competition data.
 
-##### Libraries & Frameworks
+#### Libraries & Frameworks
 **Pandas:** For data manipulation and analysis.
 
 **Plotly:** For creating interactive and responsive visualizations.
 
 **Streamlit:** For building and deploying the web dashboard interface.
 
-##### Applications & Tools
+#### Applications & Tools
 **Visual Studio Code (VS Code):** IDE used for writing and debugging code.
 
 **XAMPP (MySQL Server):** Local server setup for MySQL database hosting.
