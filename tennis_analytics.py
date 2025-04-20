@@ -4,9 +4,7 @@ import mysql.connector           #To connect and interact with the MySQL databas
 import pandas as pd              #For data manipulation and analysis in tabular format
 import plotly.express as px      #For creating interactive visualizations like line, bar, and pie charts
 from datetime import datetime, timedelta #For handling and formatting date and time operations
-import plotly.graph_objects as go 
-from io import BytesIO
-import base64
+import plotly.graph_objects as go #Customizing layouts, adding annotations, combining multiple chart types (like line + bar), or exporting static images.
 
 # MySQL Connection with Error Handling
 # Establishes a connection to the local MySQL database; if it fails, shows an error and stops the app
