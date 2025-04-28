@@ -112,10 +112,10 @@ If you have a requirements.txt, install all packages.
 
 #### Repository Structure
 /README.md       # Project documentation
-/data                     # Raw and processed data files 
-/scripts                 # Python scripts for API integration and data processing
-/database             # SQL schema and database files
-/dashboard          # Streamlit application files
+/data            # Raw and processed data files 
+/scripts         # Python scripts for API integration and data processing
+/database        # SQL schema and database files
+/dashboard       # Streamlit application files
 
 **/README.md**
 The README.md file provides an introduction to the project, explains how to set it up and use it, lists its features and technologies, and offers guidelines for contributing. It serves as the primary documentation for developers and users to understand the project's purpose, functionality, and setup.
