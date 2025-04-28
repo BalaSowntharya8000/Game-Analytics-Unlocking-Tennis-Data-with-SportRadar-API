@@ -112,9 +112,13 @@ If you have a requirements.txt, install all packages.
 
 #### Repository Structure
 /README.md       # Project documentation
+
 /data            # Raw and processed data files
+
 /scripts         # Python scripts for API integration and data processing
+
 /database        # SQL schema and database files
+
 /dashboard       # Streamlit application files
 
 **/README.md**
